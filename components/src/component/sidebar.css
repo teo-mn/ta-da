@@ -1,0 +1,18 @@
+.Sidebar{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #F5E0E0;
+    border-right: 1px solid black;
+    font-family: Poppins;
+}
+.Header{
+    height: 13%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navContainer{
+    padding: 0 10%;
+}

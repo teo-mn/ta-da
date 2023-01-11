@@ -1,0 +1,31 @@
+[
+    {
+        "title": "TEO",
+        "path": "/TEO"       
+    },
+    {
+        "title": "Foundation",
+        "childrens": [
+            {
+                "title": "Color",
+                "path": "/color"
+            },
+            {
+                "title": "Palette",
+                "path": "/palette"
+            }
+        ]
+    },
+    {
+        "title": "Content",
+        "path": "/content"
+    },
+    {
+        "title": "Components",
+        "path": "/components"
+    },
+    {
+        "title": "Patterns",
+        "path": "/patterns"
+    }
+]
