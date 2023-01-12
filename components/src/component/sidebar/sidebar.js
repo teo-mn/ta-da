@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./sidebar.css";
 import SidebarItem from "./sidebarItem";
 import items from "./data/sidebar.json";
+import languages from "./data/language.json";
 function Sidebar() {
   return (
     <div className="Sidebar">
@@ -10,9 +11,16 @@ function Sidebar() {
         <img src={logo} className="logo" alt="logo" />
       </div>
       <div className="navContainer">
-        {items.map((item, index) => (
-          <SidebarItem key={index} item={item} />
-        ))}
+        <div>
+          {items.map((item, index) => (
+            <SidebarItem key={index} item={item} />
+          ))}
+        </div>
+        <div>
+          {languages.map((item, index) => (
+            <SidebarItem key={index} item={item} />
+          ))}
+        </div>
       </div>
     </div>
   );
