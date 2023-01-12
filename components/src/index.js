@@ -6,6 +6,7 @@ import PageHeader from "./component/typography/pageHeader";
 import Contents from "./component/typography/Contents";
 import TypeFaces from "./component/typography/typeFaces";
 import TypographyComps from "./component/typography/typographyComps";
+import TextFormat from "./component/typography/textFormatting";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,8 @@ root.render(
         <TypeFaces />
         <div className="space"></div>
         <TypographyComps />
+        <div className="space"></div>
+        <TextFormat />
       </div>
     </div>
   </React.StrictMode>
