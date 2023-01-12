@@ -1,0 +1,26 @@
+.content-container{
+    background-color: white;
+    color: #464646;
+
+}
+.content-container h3{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.content-container hr{
+    background-color: #f3f3f3;
+    height: 2px;
+    border: none;
+}
+.content-container ul{
+    padding: 1em 0;
+    list-style: none;
+    color: #117DE1;
+}
+.content-container li{
+    margin: 0.7em 0;
+}
+.content-container li:hover{
+    cursor: pointer;
+}

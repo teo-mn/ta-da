@@ -12,13 +12,25 @@ body{
 }
 .container{
   display: flex;
-  height: 100vh;
+  height: 100%;
 }
 .bar{
+  position: fixed;
   width: 13%;
   flex-shrink: 0;
   background-color: #F5E0E0;
   height: 100%;
   color: #464646;
 }
+.content{
+  width: 87%;
+  margin-left: 13%;
+  border-left: 1px solid black;
+  background-color: #F3F3F3;
+  padding: 5% 8%;
+}
 
+.space{
+  background-color: #F3F3F3;
+  height: 40px;
+}
