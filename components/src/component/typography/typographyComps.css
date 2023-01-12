@@ -1,0 +1,74 @@
+.typo-container{
+    font-family: Poppins;
+    background-color: white;
+    color: #464646;
+    flex-direction: column;
+}
+.typo-container h3{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.typo-container hr{
+    background-color: #f3f3f3;
+    height: 2px;
+    border: none;
+}
+.typo-content{
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+.typo-titles{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 13em;
+    margin: 20px 0;
+}
+.typo-titles-text{
+    width: 50%;
+}
+.typo-titles-text h3{
+    font-weight: 600;
+    font-size: 1.15em;
+}
+.typo-titles-text p{
+    padding: 0.8em 0;
+    font-size: 0.9em;
+}
+.blue{
+    font-weight: 400;
+    font-size: 1em;
+    color: #117DE1;
+}
+.typo-heading-content{
+    background-color: #f3f3f3;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7em;
+}
+.typo-heading-text{
+    font-weight: 600;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+.typo-heading-example{
+    font-weight: 400;
+    font-size: 1em;
+}
+.typo-body-text{
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.typo-detail-text{
+    font-weight: 700;
+    font-size: 1.4em;
+}
+.detail-title{
+    font-weight: 500;
+}
