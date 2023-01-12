@@ -18,10 +18,7 @@ export default function SidebarItem(item) {
     );
   } else {
     return (
-      <a
-        href={item.item.path || "#"}
-        className={open ? "sidebar-item open" : "sidebar-item"}
-      >
+      <a href={item.item.path || "#"} className="sidebar-item">
         <div className="sidebar-title">
           <span>{item.item.title}</span>
         </div>

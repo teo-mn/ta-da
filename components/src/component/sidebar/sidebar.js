@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../logo.svg";
+import logo from "./logo.svg";
 import "./sidebar.css";
 import SidebarItem from "./sidebarItem";
-import items from "../data/sidebar.json";
+import items from "./data/sidebar.json";
 function Sidebar() {
   return (
     <div className="Sidebar">

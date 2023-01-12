@@ -15,53 +15,10 @@ body{
   height: 100vh;
 }
 .bar{
-  width: 23%;
+  width: 13%;
   flex-shrink: 0;
   background-color: #F5E0E0;
   height: 100%;
   color: #464646;
 }
 
-.sidebar-item{
-  padding: 1em;
-  display: block;
-  font-size: 1.2em;
-  transition: background-color .15s;
-  text-decoration: none;
-  color: #464646;
-  border-radius: 6px;
-}
-.sidebar-item:hover{
-  background-color: white;
-  
-}
-.sidebar-title{
-  display: flex;
-  font-weight: 600;
-  justify-content: space-between;
-}
-
-.sidebar-title span i{
-  display: inline-block;
-  width: 1em;
-}
-.bi-chevron-down{
-  cursor: pointer;
-  transform: transform .3s;
-}
-.sidebar-item.open .bi-chevron-down{
-  transform: rotate(180deg);
-}
-.sidebar-content{
-  padding-top: .25em;
-  height: 0;
-  overflow: hidden;
-}
-.sidebar-item.open .sidebar-content{
-  height: auto;
-  font-weight: 400;
-
-}
-.sidebar-item.open .sidebar-title{
-  font-size: px;
-}
