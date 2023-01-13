@@ -1,0 +1,82 @@
+[
+    {
+        "size": "Size",
+        "desktopScale": "Desktop scale",
+        "mobileScale": "Mobile scale"      
+    },
+    {
+        "size": "font-size-50",
+        "desktopScale": "11 px",
+        "mobileScale": "13 px"      
+    },
+    {
+        "size": "font-size-75",
+        "desktopScale": "12 px",
+        "mobileScale": "15 px"      
+    },
+    {
+        "size": "font-size-100",
+        "desktopScale": "14 px",
+        "mobileScale": "17 px"      
+    },
+    {
+        "size": "font-size-200",
+        "desktopScale": "16 px",
+        "mobileScale": "19 px"      
+    },
+    {
+        "size": "font-size-300",
+        "desktopScale": "18 px",
+        "mobileScale": "22 px"      
+    },
+    {
+        "size": "font-size-400",
+        "desktopScale": "20 px",
+        "mobileScale": "24 px"      
+    },
+    {
+        "size": "font-size-500",
+        "desktopScale": "22 px",
+        "mobileScale": "27 px"      
+    },
+    {
+        "size": "font-size-600",
+        "desktopScale": "25 px",
+        "mobileScale": "31 px"      
+    },
+    {
+        "size": "font-size-700",
+        "desktopScale": "28 px",
+        "mobileScale": "34 px"      
+    },
+    {
+        "size": "font-size-800",
+        "desktopScale": "32 px",
+        "mobileScale": "39 px"      
+    },
+    {
+        "size": "font-size-900",
+        "desktopScale": "36 px",
+        "mobileScale": "44 px"      
+    },
+    {
+        "size": "font-size-1000",
+        "desktopScale": "40 px",
+        "mobileScale": "49 px"      
+    },
+    {
+        "size": "font-size-1100",
+        "desktopScale": "45 px",
+        "mobileScale": "55 px"      
+    },
+    {
+        "size": "font-size-1200",
+        "desktopScale": "50 px",
+        "mobileScale": "62 px"      
+    },
+    {
+        "size": "font-size-1300",
+        "desktopScale": "60 px",
+        "mobileScale": "70 px"      
+    }
+]

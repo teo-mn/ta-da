@@ -5,9 +5,9 @@ export default function SidebarItem(item) {
   if (item.item.childrens) {
     return (
       <div className={open ? "sidebar-item open" : "sidebar-item"}>
-        <div className="sidebar-title">
+        <div className="sidebar-title" onClick={() => setOpen(!open)}>
           <span>{item.item.title}</span>
-          <i className="bi-chevron-down" onClick={() => setOpen(!open)}></i>
+          <i className="bi-chevron-down"></i>
         </div>
         <div className="sidebar-content">
           {item.item.childrens.map((child, index) => (

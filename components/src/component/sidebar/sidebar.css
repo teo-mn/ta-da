@@ -38,7 +38,9 @@
     font-size: 0.8em;
     justify-content: space-between;
   }
-  
+  .sidebar-title:hover{
+    cursor: pointer;
+  }
   .sidebar-title span i{
     display: inline-block;
     width: 1em;

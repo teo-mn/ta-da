@@ -28,10 +28,10 @@
 .typeface-letters{
     display: flex;
     flex-direction: row;
-    padding: 5% 20%;
+    padding: 5% 0;
     font-size: 3em;
     color: #000000;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color:#f3f3f3;
 }
 .typeface-english{
