@@ -15,8 +15,8 @@ export default function FontSizes(props) {
         component) should use a font size from this list.
       </p>
       <Container className="grid-container">
-        {props.props.map((item) => (
-          <GridItem item={item} />
+        {props.props.map((item, index) => (
+          <GridItem key={index} item={item} />
         ))}
       </Container>
     </div>
