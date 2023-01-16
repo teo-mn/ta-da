@@ -1,17 +1,15 @@
 import "./Contents.css";
 
-export default function Contents() {
+export default function Contents(props) {
+  console.log(props);
   return (
     <div className="content-container">
       <h3>Table of contents</h3>
       <hr />
       <ul>
-        <li className="content-title">Typefaces</li>
-        <li className="content-title">Typography components</li>
-        <li className="content-title">Text formatting</li>
-        <li className="content-title">Line height</li>
-        <li className="content-title">Fallback</li>
-        <li className="content-title">Changelog</li>
+        {props.props.map((item) => (
+          <li className="content-title">{item.subtitle}</li>
+        ))}
       </ul>
     </div>
   );

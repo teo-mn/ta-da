@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import content from "./data/Contents.json";
+import fontsize from "./data/fontSizes.json";
 import Sidebar from "./component/sidebar/sidebar";
 import PageHeader from "./component/typography/pageHeader";
 import Contents from "./component/typography/Contents";
@@ -20,7 +22,7 @@ root.render(
       <div className="content">
         <PageHeader />
         <div className="space"></div>
-        <Contents />
+        <Contents props={content} />
         <div className="space"></div>
         <TypeFaces />
         <div className="space"></div>
@@ -28,7 +30,7 @@ root.render(
         <div className="space"></div>
         <TextFormat />
         <div className="space"></div>
-        <FontSizes />
+        <FontSizes props={fontsize} />
         <div className="space"></div>
         <LineHeight />
         <div className="space"></div>

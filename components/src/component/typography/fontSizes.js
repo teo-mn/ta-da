@@ -1,8 +1,7 @@
 import "./fontSizes.css";
-import items from "./fontSizes.json";
 import Container from "react-bootstrap/Container";
 import GridItem from "./GridItem";
-export default function FontSizes() {
+export default function FontSizes(props) {
   return (
     <div className="font-size-container">
       <h3>Font sizes</h3>
@@ -16,7 +15,7 @@ export default function FontSizes() {
         component) should use a font size from this list.
       </p>
       <Container className="grid-container">
-        {items.map((item) => (
+        {props.props.map((item) => (
           <GridItem item={item} />
         ))}
       </Container>

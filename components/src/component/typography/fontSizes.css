@@ -27,12 +27,12 @@
     width: 100%;
 }
 .grid-column{
-    width: 33.33%;
     font-size: 0.85em;
     display: flex;
     font-family: Manrope;
     font-weight: 400;
     padding-bottom: 0.6em;
+    width: 33%;
 }
 .grid-item-container{
     padding: 0.3em 1em;

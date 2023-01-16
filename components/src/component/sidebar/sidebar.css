@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: #F5E0E0;
+    background-color: #F5F5F5;
     border-right: 1px solid black;
     font-family: Poppins;
 }
@@ -68,5 +68,5 @@
     margin-top: 10px;
   }
   .sidebar-content .sidebar-item:hover{
-    background-color: #F5E0E0;
+    background-color: #F5F5F5;
   }
