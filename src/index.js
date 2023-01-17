@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+
 import content from "./data/Contents.json";
 import fontsize from "./data/fontSizes.json";
 import sidebar from "./component/sidebar/data/sidebar.json";
