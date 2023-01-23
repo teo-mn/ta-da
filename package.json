@@ -1,16 +1,13 @@
 {
-  "name": "components",
-  "version": "0.1.0",
-  "private": true,
+  "name": "teo-components",
+  "version": "0.6.0",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
-    "react-minimal-side-navigation": "^1.9.2",
-    "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -40,5 +37,17 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "./src",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corex-mn/ta-da.git"
+  },
+  "author": "sapnai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corex-mn/ta-da/issues"
+  },
+  "homepage": "https://github.com/corex-mn/ta-da#readme"
 }
