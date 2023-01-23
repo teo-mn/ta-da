@@ -1,6 +1,6 @@
 {
   "name": "teo-components",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

@@ -20,6 +20,7 @@ function onClick() {
   console.log("do something here");
 }
 root.render(
+<React.StrictMode>
   <div className="container">
     <div className="bar">
       <Header />
@@ -305,4 +306,5 @@ root.render(
       </div>
     </div>
   </div>
+  </React.StrictMode>
 );
