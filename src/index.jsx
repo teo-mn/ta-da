@@ -7,7 +7,6 @@ import fontsize from "./data/fontSizes.json";
 import sidebar from "./component/sidebar/data/sidebar.json";
 import language from "./component/sidebar/data/language.json";
 
-import Container from "react-bootstrap/Container";
 import GridItem from "./component/typography/GridItem";
 import Sidebar from "./component/sidebar/sidebar";
 import Contents from "./component/typography/Contents";
@@ -257,11 +256,11 @@ root.render(
           non-existing typography component) should use a font size from this
           list.
         </p>
-        <Container className="flex flex-col justify-between text-gray-900 w-[100%]">
+        <div className="flex flex-col justify-between text-gray-900 w-[100%]">
           {fontsize.map((item, index) => (
             <GridItem key={index} item={item} />
           ))}
-        </Container>
+        </div>
       </div>
       <div className="space"></div>
       <div className="bg-white font-Poppins text-gray-700">
